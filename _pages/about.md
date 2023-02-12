@@ -1,25 +1,25 @@
 ---
 layout: about
-title: about
+title: About Me
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Climate Change | Net-Zero | Data Modelling 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: pearl_profile_pic.jpeg
   image_circular: false # crops the image to make it circular
   address: >
     <p>555 your office number</p>
     <p>123 your address street</p>
     <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi I'm Pearl, and I like clouds, plankton, cartoons, and being optimistic about environmental solutions! :sparkles: :smile:
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My latest work is with the kind folks at [Net Zero Data Public Utility](https://www.nzdpu.com/) as their Climate Data Analyst. I provide solutions for data analysis, emissions modeling, cloud computing, cloud data architecture and development of open climate data solutions. My work seeks to integrate decarbonization targets into investment workflows and aid the development of sustainability disclosure solutions for financial institutions and corporate clients. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I hold degrees in Atmospheric Science and Data Science from the University of Cambridge, and University of British Columbia. I've worked with all sorts of climate data on a variety of projects in academia and corporate finance; using statistical and analytical techniques on large, multi-dimensional datasets and machine learning. My work is listed on the projects page in my prtfolio. Drop me an email with any questions, or your favourite weather joke! 
