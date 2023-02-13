@@ -1,26 +1,26 @@
 ---
 layout: page
-title: Calculating rain rate from radar reflectivity of Hurricane Karl
+title: Calculating rain rate from radar reflectivity of Hurricane Julia
 description: Skills - python, hdf files, rasterio, ECMWF, weather forecasting, geoproj, numpy, pyproj, cloudsat
 img: assets/img/hurricane_karl_reflectivity.png
-importance: 2
+importance: 3
 category: research
 ---
 
 # Introduction 
 This research project was carried out to see radar reflectivity values in storms, and calculate the rain rate from the radar pulses. The raw data files are in the hdf format and obtained from [Cloudsat's Data Center](https://www.cloudsat.cira.colostate.edu/).  
 <br>
-Related projects: [Hurricane Julia](_projects\hurricane_julia.md)
+Related projects: [Hurricane Karl](_projects\hurricane_karl.md)
 <br> 
 This work finds the the point at which the ECMWF tempearture= 0 deg C for each radar pulse and overlays that on the reflectivity plot to check to see whether the bright band occurs at the freezing level. It will also plot the rain rate for the storm track along with the corresponding radar reflectivity to study the eye of the storm
 <br><br>
 ### Storm Details <br>
-**Name:** Hurricane Karl <br>
+**Name:** Hurricane Julia <br>
 **Year:** 2010 <br>
-**Region:** Atlantic Basin (Landfall in Yucatan Peninsula of Mexico )<br>
-[Wiki Reference and Storm Details](https://en.wikipedia.org/wiki/Hurricane_Karl) 
+**Region:** Atlantic Basin (did not make landfall)<br>
+[Wiki Reference and Storm Details](https://en.wikipedia.org/wiki/Hurricane_Julia_(2010))
 
-The full notebook with this work is at the [github project](https://github.com/Pearl-Ayem/Atmospheric-Radiation-Notebook-Data/blob/master/notebooks/cloudsat_precip_Karl-PA.ipynb) for this analysis. 
+The full notebook with this work is at the [github project](https://github.com/Pearl-Ayem/Atmospheric-Radiation-Notebook-Data/blob/master/notebooks/cloudsat_precip_Julia-PA.ipynb) for this analysis. 
 
 <br><br>
 
@@ -29,16 +29,16 @@ The full notebook with this work is at the [github project](https://github.com/P
 ```python
 rain_rate = HDFvd_read(r_file,'rain_rate',vgroup='Data Fields')
 invalid = (rain_rate == -9999.)
-rain_rate[invalid] = np.nan
-hit = rain_rate < 0
+rain_rate[invalid] = np.nan #creates runtime warning due to nan value
+hit = rain_rate < 0.
 rain_rate[hit] = np.abs(rain_rate[hit])
-plt.plot(rain_rate);
+plt.plot(rain_rate)
 ```
 {% endraw %}
 
 <div class="row">
     <div class="col-sm">
-        {% include figure.html path="assets/img/hurricane_karl_rain_rate.png" title="hurricane_karl_rain_rate" class="img-fluid z-depth-1"%}
+        {% include figure.html path="assets/img/hurricane_julia_rain_rate.png" title="hurricane_julia_rain_rate" class="img-fluid z-depth-1"%}
     </div>
 </div>
 
@@ -65,7 +65,6 @@ for index in np.arange(1,len(storm_lons)):
                                        storm_lons[index],storm_lats[index])
     distance.append(distance[index-1] + step)
 distance=np.array(distance)/meters2km
-
 ```
 {% endraw %}
 
@@ -120,7 +119,7 @@ ax2.set(xlabel='distance (km)',ylabel='rain rate (mm/hour)')
 
 <div class="row">
     <div class="col-sm">
-        {% include figure.html path="assets/img/hurricane_karl_reflectivity.png" title="hurricane_karl_reflectivity" class="img-fluid z-depth-1"%}
+        {% include figure.html path="assets/img/hurricane_julia_reflectivity.png" title="hurricane_julia_reflectivity" class="img-fluid z-depth-1"%}
     </div>
 </div>
 
@@ -177,7 +176,7 @@ ax.set(xlabel='distance (km)',ylabel='height (km)',title='ECMWF temps in deg C')
 
 <div class="row">
     <div class="col-sm">
-        {% include figure.html path="assets/img/hurricane_karl_ECMWF_temps.png" title="hurricane_karl_reflectivity" class="img-fluid z-depth-1"%}
+        {% include figure.html path="assets/img/hurricane_julia_ECMWF_temps.png" title="hurricane_julia_ECMWF_temps" class="img-fluid z-depth-1"%}
     </div>
 </div>
 
@@ -217,7 +216,7 @@ longwave_qr=storm_qr[1,:,:]
 
 <div class="row">
     <div class="col-sm">
-        {% include figure.html path="assets/img/hurricane_karl_lw_sw.png" title="hurricane_karl_reflectivity" class="img-fluid z-depth-1"%}
+        {% include figure.html path="assets/img/hurricane_julia_lw_sw.png" title="hurricane_julia_lw_sw" class="img-fluid z-depth-1"%}
     </div>
 </div>
 
