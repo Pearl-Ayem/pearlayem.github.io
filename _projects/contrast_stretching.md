@@ -2,7 +2,7 @@
 layout: page
 title: Contrast stretching on satellite data
 description: Skills - python, sklearn, rasterio, TIFF 
-img:
+img: assets\img\contrast_stretch_3.png
 importance: 4
 category: fun
 ---
