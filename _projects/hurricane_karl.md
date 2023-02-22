@@ -2,7 +2,7 @@
 layout: page
 title: Calculating rain rate from radar reflectivity of Hurricane Karl
 description: Skills - python, hdf files, rasterio, ECMWF, weather forecasting, geoproj, numpy, pyproj, cloudsat
-img: assets/img/hurricane_karl_reflectivity.png
+img: assets/img/hurricane_karl_lw_sw.png
 importance: 2
 category: research
 ---

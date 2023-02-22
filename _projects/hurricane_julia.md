@@ -2,7 +2,7 @@
 layout: page
 title: Calculating rain rate from radar reflectivity of Hurricane Julia
 description: Skills - python, hdf files, rasterio, ECMWF, weather forecasting, geoproj, numpy, pyproj, cloudsat
-img: assets/img/hurricane_karl_reflectivity.png
+img: assets/img/hurricane_julia_reflectivity.png
 importance: 3
 category: research
 ---
@@ -10,7 +10,7 @@ category: research
 # Introduction 
 This research project was carried out to see radar reflectivity values in storms, and calculate the rain rate from the radar pulses. The raw data files are in the hdf format and obtained from [Cloudsat's Data Center](https://www.cloudsat.cira.colostate.edu/).  
 <br>
-Related projects: [Hurricane Karl](_projects\hurricane_karl.md)
+Related projects: [Hurricane Karl](/_projects/hurricane_karl.md)
 <br> 
 This work finds the the point at which the ECMWF tempearture= 0 deg C for each radar pulse and overlays that on the reflectivity plot to check to see whether the bright band occurs at the freezing level. It will also plot the rain rate for the storm track along with the corresponding radar reflectivity to study the eye of the storm
 <br><br>
