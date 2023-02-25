@@ -3,7 +3,7 @@ layout: page
 title: Contrast stretching on satellite data
 description: Skills - python, sklearn, rasterio, TIFF 
 img: assets\img\contrast_stretch_3.png
-importance: 4
+importance: 1
 category: fun
 ---
 
@@ -28,9 +28,10 @@ with pil_image.open(tiff_file) as img:
 img_eq = exposure.equalize_hist(ch1)  
 plt.hist(ch1.ravel());
 ```
+{% endraw %}
 
 ### 2. Draw histogram of intensity from the float obtained above
-{% endraw %}
+
 
 <div class="row">
     <div class="col-sm">
