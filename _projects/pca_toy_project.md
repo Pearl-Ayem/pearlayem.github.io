@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Principal Component Analysis on sample datasets
-description: Skills: sklearn, scipy, seaborn
+description: Skills: sklearn, scipy, seaborn, PCA, statistics
 img: assets/img/pca_1.png
 importance: 2
 category: fun
@@ -9,6 +9,8 @@ category: fun
 
 
 # Introduction 
+Principal component analysis, or PCA, is a dimensionality-reduction method that is often used to reduce the dimensionality of large data sets, by transforming a large set of variables into a smaller one that still contains most of the information in the large set.
+
 The goal of this toy project was to use new statistical and visualization libraries to conduct PCA/CCA on sample data. The libraries and functions used in this project include: scikit-learn and scipy for linear decomposition and conducting Principal Componenet Analysis and Canonical Componenet Analysis and seaborn for new visualization tecniques. 
 
 The first sample dataset contains time series of four variables: x1, x2, x3 and x4.
