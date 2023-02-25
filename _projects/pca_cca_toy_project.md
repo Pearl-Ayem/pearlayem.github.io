@@ -2,10 +2,11 @@
 layout: page
 title: Principal Component Analysis on sample datasets
 description: Skills: sklearn, scipy, seaborn
-img:
+img: assets/img/pca_1.png
 importance: 2
 category: fun
 ---
+
 
 # Introduction 
 The goal of this toy project was to use new statistical and visualization libraries to conduct PCA/CCA on sample data. The libraries and functions used in this project include: scikit-learn and scipy for linear decomposition and conducting Principal Componenet Analysis and Canonical Componenet Analysis and seaborn for new visualization tecniques. 
@@ -86,74 +87,53 @@ Using the plots below I decide which modes I want to keep to reconstruct the dat
 </div>
 
 
-## d) Plot the PCs of the significant modes (i.e. those that you kept) in time. Briefly discuss the 
-results (what are these plots telling you?) 
-e) Plot PC1 vs PC2. Discuss any feature that you find interesting.
+## d) Plot the PCs of the significant modes (i.e. those that I kept) in time. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
 {% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+```python
+
+plt.figure(figsize=(15,5*n))
+for kk in range(n):  # n here is = 2
+    
+    plt.subplot(n,2,kk*2+1)
+    plt.plot(eigvecs[kk])
+    plt.xticks(rotation=90)
+    plt.title('Eigenvector of Mode #' + str(kk+1))
+    
+    plt.subplot(n,2,(kk+1)*2)
+    plt.plot(PCs[:,kk])
+    plt.title('PCs of Mode #' + str(kk+1))
+
+plt.tight_layout()
 ```
 {% endraw %}
+
+Eigenvectors show the spatial patterns and PCs show the temporal patterns. So the first eigenvector plot for mode 1 which accounts for the highest variance, shows the change of variance over the spatial x domain explained by that mode. The first PC plot for MOde 1 shows the temporal variance explained by that mode. Similarly is true for Mode 2, but for the second most significant mode. Overall Eigenvector 1 and 2 are orthogonal, and the PCs are uncorrelated. In this example the PCs show an oscillation through time.
+
+<div class="row">
+    <div class="col-sm">
+        {% include figure.html path="assets/img/pca_3.png" title="PCA 3" class="img-fluid z-depth-1"%}
+    </div>
+</div>
+
+# e) Plot PC1 vs PC2. 
+{% raw %}
+```python
+plt.figure()
+g = sns.jointplot(PCs[:,0],PCs[:,1], kind='reg')
+plt.xlabel('PC1',fontsize=18)
+plt.ylabel('PC2',fontsize=18)
+plt.subplots_adjust(top=0.93)
+g.fig.suptitle('PC1 vs PC2',fontsize=18)
+plt.show()
+```
+{% endraw %}
+
+There are no defined clusters in this plot, and lowest spread or variance is in the centre. There is however a pattern of datapoints aligned towards the left and right corners of the plot, vertically. These edges have most variance too as seen in the plot. The points prove that the PCs are uncorrelated, however they are aligned in a bimodal cluster. Similarly there are pointy ends in almost all the 4 corners if looked closely.
+
+<div class="row">
+    <div class="col-sm">
+        {% include figure.html path="assets/img/pca_3.png" title="PCA 3" class="img-fluid z-depth-1"%}
+    </div>
+</div>
