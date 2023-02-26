@@ -3,7 +3,7 @@ layout: page
 title: Calculating rain rate from radar reflectivity of Hurricane Julia
 description: Skills - python, hdf files, rasterio, ECMWF, weather forecasting, geoproj, numpy, pyproj, cloudsat
 img: assets/img/hurricane_julia_reflectivity.png
-importance: 3
+importance: 5
 category: research
 ---
 

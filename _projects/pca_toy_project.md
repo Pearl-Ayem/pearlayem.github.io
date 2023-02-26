@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Principal Component Analysis on sample datasets
-description: Skills: sklearn, scipy, seaborn, PCA, statistics
-img: assets/img/pca_1.png
+description: Skills- sklearn, scipy, seaborn, PCA, statistics
+img: assets/img/pca_4.png
 importance: 2
 category: fun
 ---
@@ -11,7 +11,7 @@ category: fun
 # Introduction 
 Principal component analysis, or PCA, is a dimensionality-reduction method that is often used to reduce the dimensionality of large data sets, by transforming a large set of variables into a smaller one that still contains most of the information in the large set.
 
-The goal of this toy project was to use new statistical and visualization libraries to conduct PCA/CCA on sample data. The libraries and functions used in this project include: scikit-learn and scipy for linear decomposition and conducting Principal Componenet Analysis and Canonical Componenet Analysis and seaborn for new visualization tecniques. 
+The goal of this toy project was to use new statistical and visualization libraries to conduct PCA on sample data. The libraries and functions used in this project include: scikit-learn and scipy for linear decomposition and conducting Principal Componenet Analysis and seaborn for new visualization tecniques. 
 
 The first sample dataset contains time series of four variables: x1, x2, x3 and x4.
 <br>
@@ -38,7 +38,6 @@ plt.savefig('1a')
 
 
 ## b) Perform PCA on the data.
-
 To perform PCA I normalized the data, then used the [PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html) function from sklearn library. 
 
 
@@ -111,7 +110,8 @@ plt.tight_layout()
 ```
 {% endraw %}
 
-Eigenvectors show the spatial patterns and PCs show the temporal patterns. So the first eigenvector plot for mode 1 which accounts for the highest variance, shows the change of variance over the spatial x domain explained by that mode. The first PC plot for MOde 1 shows the temporal variance explained by that mode. Similarly is true for Mode 2, but for the second most significant mode. Overall Eigenvector 1 and 2 are orthogonal, and the PCs are uncorrelated. In this example the PCs show an oscillation through time.
+Eigenvectors show the spatial patterns and PCs show the temporal patterns. So the first eigenvector plot for mode 1 which accounts for the highest variance, shows the change of variance over the spatial x domain explained by that mode. <br> 
+The first PC plot for Mode 1 shows the temporal variance explained by that mode. Similarly is true for Mode 2, but for the second most significant mode. Overall Eigenvector 1 and 2 are orthogonal, and the PCs are uncorrelated. In this example the PCs show an oscillation through time.
 
 <div class="row">
     <div class="col-sm">
@@ -136,6 +136,6 @@ There are no defined clusters in this plot, and lowest spread or variance is in 
 
 <div class="row">
     <div class="col-sm">
-        {% include figure.html path="assets/img/pca_3.png" title="PCA 3" class="img-fluid z-depth-1"%}
+        {% include figure.html path="assets/img/pca_4.png" title="PCA 4" class="img-fluid z-depth-1"%}
     </div>
 </div>

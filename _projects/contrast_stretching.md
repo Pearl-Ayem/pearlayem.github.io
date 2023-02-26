@@ -39,7 +39,7 @@ plt.hist(ch1.ravel());
     </div>
 </div>
 
-### 2. Creating plot of the low contrast image and high intensity normalized image
+### 3. Creating plot of the low contrast image and high intensity normalized image
 {% raw %}
 ```python
 plt.imshow(ch1);
@@ -65,7 +65,7 @@ plt.imshow(img_eq[1000:4000,1500:5000],interpolation="nearest");
     High intensity normalized image
 </div>
 
-### 3. Convert high contrast image to map, with shapefile for borders. Create histogram of the new image floats.
+### 4. Convert high contrast image to map, with shapefile for borders. Create histogram of the new image floats.
 
 {% raw %}
 ```python
@@ -98,7 +98,7 @@ ax.set_extent([xmin,xmax,ymin,ymax],crs)
     High intensity normalized image histogram
 </div>
 
-### 4. Plot comparision of image quality with its histograms
+### 5. Plot comparision of image quality with its histograms
 {% raw %}
 ```python
 
