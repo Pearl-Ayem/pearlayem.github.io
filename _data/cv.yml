@@ -118,7 +118,7 @@
     
 
 - title: Open Data Projects
-  type: time_table
+  type: paragraph
   contents:
     - title: <a href="https://www.nzdpu.com/">Net-Zero Data Public Utility (NZDPU) </a>
       year: 2022 - present
