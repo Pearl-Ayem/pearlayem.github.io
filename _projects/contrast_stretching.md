@@ -42,7 +42,7 @@ plt.hist(ch1.ravel());
 ### 3. Creating plot of the low contrast image and high intensity normalized image
 {% raw %}
 ```python
-plt.imshow(ch1);
+plt.imshow(ch1)
 plt.imshow(img_eq[1000:4000,1500:5000],interpolation="nearest");
 ```
 {% endraw %}

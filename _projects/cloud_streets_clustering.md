@@ -2,7 +2,7 @@
 layout: page
 title: Appyling Clustering to identify cloud streets in satellite imagery
 description: Skills - python, K-means, image clustering, multidimensional data
-img: assets/img/project_1_thumbnail.jpg
+img: assets/img/project_1_thumbnail.JPG
 importance: 7
 category: research
 ---
