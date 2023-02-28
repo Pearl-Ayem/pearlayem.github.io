@@ -2,7 +2,7 @@
 layout: page
 title: Contrast stretching on satellite data
 description: Skills - python, sklearn, rasterio, TIFF 
-img: assets\img\contrast_stretch_3.png
+img: assets\img\cs_1_3.png
 importance: 1
 category: fun
 ---
@@ -35,7 +35,7 @@ plt.hist(ch1.ravel());
 
 <div class="row">
     <div class="col-sm">
-        {% include figure.html path="assets\img\contrast_stretch_1.png" title="float histogram" class="img-fluid z-depth-1"%}
+        {% include figure.html path="assets\img\cs_1_1.png" title="float histogram" class="img-fluid z-depth-1"%}
     </div>
 </div>
 
@@ -49,7 +49,7 @@ plt.imshow(img_eq[1000:4000,1500:5000],interpolation="nearest");
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="\assets\img\contrast_stretch_2.png" title="low contrast image" class="img-fluid z-depth-1" %}
+        {% include figure.html path="\assets\img\cs_1_2.png" title="low contrast image" class="img-fluid z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -58,7 +58,7 @@ plt.imshow(img_eq[1000:4000,1500:5000],interpolation="nearest");
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets\img\contrast_stretch_3.png" title="high intensity image" class="img-fluid z-depth-1" %}
+        {% include figure.html path="assets\img\cs_1_3.png" title="high intensity image" class="img-fluid z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -85,13 +85,13 @@ ax.set_extent([xmin,xmax,ymin,ymax],crs)
 
 <div class="row">
     <div class="col-sm">
-        {% include figure.html path="assets\img\contrast_stretch_4.png" title="high intensity map" class="img-fluid z-depth-1"%}
+        {% include figure.html path="assets\img\cs_1_4.png" title="high intensity map" class="img-fluid z-depth-1"%}
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets\img\contrast_stretch_5.png" title="high intensity image" class="img-fluid z-depth-1" %}
+        {% include figure.html path="assets\img\cs_1_5.png" title="high intensity image" class="img-fluid z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -190,7 +190,7 @@ plt.show()
 
 <div class="row">
     <div class="col-sm">
-        {% include figure.html path="assets/img/contrast_stretch_6.png" title="contrast stretching vs hist" class="img-fluid z-depth-1"%}
+        {% include figure.html path="assets/img/cs_1_6.png" title="contrast stretching vs hist" class="img-fluid z-depth-1"%}
     </div>
 </div>
 
