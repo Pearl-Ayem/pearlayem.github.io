@@ -2,7 +2,7 @@
 layout: page
 title: Contrast stretching on satellite data
 description: Skills - python, sklearn, rasterio, TIFF 
-img: assets\img\cs_1_3.png
+img: assets/img/cs_1_3.png
 importance: 1
 category: fun
 ---
@@ -10,6 +10,8 @@ category: fun
 # Introduction 
 This project was carried out as an experiment to understand contrast stretching on Landsat satellite imagery. Constrast stretching is a normalization technique to enhance the image quality by stretching the range of intesity values. The method allows us to create better images from satellite data captured at high temporal resolutions, but in partially cloud conditions. 
 
+## Scene: LC80470262015165LGN02 center time is 2015-06-14 19:00:43
+<br><br>
 
 ### 1. Read bands 3,4 and 5 (green, red and near-ir) and convert the image to double-precision (64-bit) floating point format:
 {% raw %}
@@ -35,7 +37,7 @@ plt.hist(ch1.ravel());
 
 <div class="row">
     <div class="col-sm">
-        {% include figure.html path="assets\img\cs_1_1.png" title="float histogram" class="img-fluid z-depth-1"%}
+        {% include figure.html path="assets/img/cs_1_1.png" title="contrast stretching 1" class="img-fluid z-depth-1"%}
     </div>
 </div>
 
@@ -48,21 +50,15 @@ plt.imshow(img_eq[1000:4000,1500:5000],interpolation="nearest");
 {% endraw %}
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="\assets\img\cs_1_2.png" title="low contrast image" class="img-fluid z-depth-1" %}
+    <div class="col-sm">
+        {% include figure.html path="assets/img/cs_1_2.png" title="contrast stretching 2" class="img-fluid z-depth-1"%}
     </div>
-</div>
-<div class="caption">
-    Low contrast original image
 </div>
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets\img\cs_1_3.png" title="high intensity image" class="img-fluid z-depth-1" %}
+    <div class="col-sm">
+        {% include figure.html path="assets/img/cs_1_3.png" title="contrast stretching 3" class="img-fluid z-depth-1"%}
     </div>
-</div>
-<div class="caption">
-    High intensity normalized image
 </div>
 
 ### 4. Convert high contrast image to map, with shapefile for borders. Create histogram of the new image floats.
@@ -85,18 +81,16 @@ ax.set_extent([xmin,xmax,ymin,ymax],crs)
 
 <div class="row">
     <div class="col-sm">
-        {% include figure.html path="assets\img\cs_1_4.png" title="high intensity map" class="img-fluid z-depth-1"%}
+        {% include figure.html path="assets/img/cs_1_4.png" title="contrast stretching 4" class="img-fluid z-depth-1"%}
     </div>
 </div>
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets\img\cs_1_5.png" title="high intensity image" class="img-fluid z-depth-1" %}
+    <div class="col-sm">
+        {% include figure.html path="assets/img/cs_1_5.png" title="contrast stretching 5" class="img-fluid z-depth-1"%}
     </div>
 </div>
-<div class="caption">
-    High intensity normalized image histogram
-</div>
+
 
 ### 5. Plot comparision of image quality with its histograms
 {% raw %}
