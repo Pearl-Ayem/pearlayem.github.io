@@ -8,6 +8,134 @@
     - name: Languages
       value: English (Native Proficiency), Hindi (Native Proficiency)
 
+- title: Experience
+  type: time_table
+  contents:
+    - title: Senior Modeller - Climate Risk
+      institution: Sillion, United Kingdom
+      year: December 2023 - Present
+      # skills: Risk modelling, TCFD/ISSB, Transition planning
+      description:
+        - Lead development of core climate risk models for FTSE100 and FTSE250 clients, integrating results into TPT, CSRD, and annual reports across SECR, TCFD/ISSB, CDP, and GRI frameworks.
+        - Provide scenario analyses, transition risk assessments, and double materiality insights.
+        - Manage and mentor junior analysts and consultants, aligning their work with strategic goals in climate risk and sustainability.
+        - Product Lead for a ESG research tool tracking ESG KPIs across 600+ companies.
+        - Present findings to C-suite stakeholders and boards, author executive reports, and trained in press and media.
+        - Build Python-based risk models that can be integrated into financial dashboards (Power BI, Tableau).
+
+
+    - title: Net-Zero Data Specialist
+      institution: Bloomberg L.P (Secondedment with <a href="https://www.gfanzero.com/">GFANZ </a>, and <a href="https://www.nzdpu.com">NZDPU</a>)
+      year: July 2022 - December 2023
+      # skills: Skills- Climate Change Mitigation · Net Zero · Data Architecture · Data Modeling · Databases · Public Speaking
+      description: 
+        - Led data modelling and engineering for the NZDPU, a free, open data platform for climate transition, directly collaborating with global leaders, such as <a href="https://www.bloomberg.org/press/president-emmanuel-macron-and-michael-r-bloomberg-deliver-proof-of-concept-for-groundbreaking-net-zero-data-public-utility-at-cop28/">President Emmanuel Macron</a>, and the governments of <a href="https://nzdpu.com/news-and-publications/93eb6a59-8581-4c85-b4e7-4ebc670b17f2?page=2">Switzerland</a> and <a href="https://www.responsible-investor.com/singapore-and-switzerland-sign-up-to-global-climate-data-project/">Singapore</a>, <a href="https://www.cdp.net/en/articles/media/cdp-and-nzdpu-collaborate-to-accelerate-access-to-core-climate-data">CDP</a>, and UN.
+        - Published two high-impact reports for <a href="https://assets.bbhub.io/company/sites/63/2022/09/Recommendations-and-Guidance-on-Financial-Institution-Net-zero-Transition-Plans-November-2022.pdf">GFANZ</a> and <a href="https://assets.bbhub.io/company/sites/71/2022/11/request-for-proposal-2022.pdf">NZDPU</a>, with partners from ISSB, and IEA.
+        - Managed team of 40 analysts in data acquisition, transformation, and analysis for GFANZ's data launch at COP27.
+        - Supported CTO with RFP processes, vendor evaluation, and management of engineering contractors.
+        - Helped secure partnerships, including with CDP for 10,000+ companies to be hosted on the NZDPU platform.
+        - Built ETL pipelines for ingesting data across many providers, did API development, and wrote transformation scripts.
+        - Delivered briefs and insights on 700 climate KPIs for Bloomberg's CEO to present at COP27
+        - Expert in Scope 1,2,3 GHG emission models, global reporting standards, and jurisdictional policies.
+        - Experience of working with RCPs, SSPs and EU taxonomy.
+        - Create data models to map across regulatory frameworks such as TCFD, CDP, GHGP, PCAF, EFRAG, SBTi etc.
+        - Oversaw software developers working on transforming GFANZ's existing data infrastructure to cloud storage & computing.
+        - Developed AI/ML/NLP modules to create data collection and quality checks for net-zero tracking.
+
+
+    - title: Co-Organizer and DEI Expert
+      institution: Polar Impact
+      year: October2021 - March 2023
+      # skills: Skills- Climate Change Mitigation · Net Zero · Data Architecture · Data Modeling · Databases · Public Speaking
+      description: 
+        - Co-run an NGO as a volunteer that supports BIPOC professionals in the polar research community.
+        - Helped write grant proposals that won a cumulative of £50,000 from National Science Foundation, UKRI and National Geographic.
+        - Organized COP26 speakers for climate justice talks.
+        - My work is used as <a href="https://twitter.com/PolarImpact/status/1463252358121631753?s=20">course curriculum</a> at the University of Cambridge's graduate-level MPhil classes.
+  
+
+    - title: Climate Science Researcher
+      institution: University of Cambridge, British Antarctic Survey
+      year: October 2021 - June 2022
+      # skills: Bid Writing · Marketing · Managerial Finance · Sustainability · Leadership
+      description:
+        - Conducted fully-funded research by the Scott Polar Research Institute, and the British Antarctic Survey on atmospheric drivers of Antarctic surface melt.
+        - Experience with multi-dimensional, geospatial data, academic research, writing papers, and conference presentations.
+        - Investigated atmospheric drivers of surface melt in Antarctica using climate models and real-time in-situ data.
+        - Experience with climate models (CMIP5 GCMs, RCMs), multi-dimensional, geospatial data, academic research, writing papers, and conference presentations.
+        - Technical analysis done in Python, with data from direct in-situ sources, NOAA and Copernicus(ESA).
+        - Developed a Convolutional Neural Network (CNN) and performed EOF analysis to identify seasonal melt patterns.
+        - Tech stack included xarray, pandas/geopandas, scipy, pyproj, netCDF, HDF5, Rasterio, GDAL, Shapely, sklearn, EOF, Fiona, plotly, cartopy, matplotlib etc.
+        - Featured in media on Cambridge's <a href="https://www.caths.cam.ac.uk/polar-impact">website</a> and <a href="https://www.instagram.com/p/CWnS3Lwogyl/?utm_source=ig_web_copy_link">social media</a> for my work on diversity and climate research.
+
+
+    - title: Brand Manager, Sustainability
+      institution: P.G.A. Hospitality
+      year: September 2018 - October 2021
+      # skills: Bid Writing · Marketing · Managerial Finance · Sustainability · Leadership
+      description:
+        - Worked as an independent contractor with the CEO to drive sustainable business development, and lead a team of 10.
+        - Achieved significant growth; Increased revenue by 233%, raised 1.5 million CAD in investment, increased profits by 31%.
+        - Proactively secured contracts with local, sustainable suppliers to mitigate supply chain challenges during the pandemic.
+        - Developed business plans, marketing materials, seasonal menus.
+        - Wrote and won an <a href="https://www.tricitynews.com/local-news/beanery-wins-contract-for-new-burke-mountain-cafe-3986899">RFP</a> bid for a <a href="https://burkevillage.ca/2021/07/29/cafe-tenant-announced-for-burke-mountain-village-discovery-center/">new location</a>.
+        - Got the business recognized for excellence, earning <a href="https://www.instagram.com/p/CVlkVIfM44V/?igshid=YmMyMTA2M2Y=">9 awards</a> and a position in Greater Vancouver's <a href="https://www.instagram.com/p/Bvr0az7hsSt/?igshid=YmMyMTA2M2Y=">Top 30 cafes</a>.
+
+
+    - title: Teaching Assistant in Computer Science
+      institution: University of British Columbia
+      # skills: Bid Writing · Product Management · Software Engineering · Leadership ·  Java · REST APIs · Unmanned Aerial Vehicles · C++ ·  App Development
+      year: December 2016 - June 2020
+      description: 
+        - Managed a team of 18 TAs as the Head Teaching Assistant of Computer Science
+        - Ran lectures for ∼1000 students in Python, C++; created + graded course modules and labs
+        - Helped pilot a <a href="https://pearl-ayem.github.io/projects/contrast_stretching/">new data science course</a>; created course modules in Climate Data Computing and taught about contrast stretching using open-source satellite imagery.
+ 
+
+    - title: Research Assistant
+      institution: University of British Columbia
+      year: December 2016 to May 2020
+      description: 
+        - Worked with several research labs in the Earth, Ocean and Atmospheric Science Department at the University of British Columbia
+        - Used open-source satellite imagery and ECMWF Climate reanalysis data to study the role of glacial katabatic winds on <a href="https://pearl-ayem.github.io/projects/cloud_streets_clustering/">cloud formation over Greenland</a>.
+        - Employed Python libraries for cloud type differentiation and formation cluster analysis (e.g., pandas, numpy, scipy, rasterio, sklearn, fiona).
+        - Collaborated with the Atmospheric Science Department to create course modules in Climate Data Computing.
+        - Designed ETL pipelines to retrieve MODIS, GOES-16/17, and Landsat (7 & 8) data from AWS's EC2 cloud Computing and virtual platforms.
+        - Worked in UBC's glaciology lab, utilizing image clustering, PCA, Sobel edge detection, and Self-Organizing Maps to detect melt season streamflow across Canada.
+        - Conducted eddy covariance measurements during the Buckley Bay wildfires, comparing them with NASA Aerosol Optical Depth data to test diffused radiation fertilization.
+        - Collected, identified, and analyzed phytoplankton in the Burrard Inlet, studying their distribution, chlorophyll levels, and carbon sink role.
+        - Analyzed plankton distributions, temperature, and salinity measurements using MATLAB to investigate climate change's impact on productivity.
+        - Constructed and set up weather sensors to study blue carbon and analyze the urban heat island effect, demonstrating proficiency in meteorological field instruments and adherence to WMO standards.
+        - Additional climate-tech projects are available on my website.
+        - Languages - Python, JAVA, C++, Matlab
+        - File Formats used - NetCDF, GRIB, TIFF, CSV, Excel, text, JSON, XML
+        - Stats/ ML PCA, Edge detection, Self-Organizing Maps, CNNs, Empirical Orthogonal Function (EOF)
+
+
+    - title: Geospatial Engineer
+      institution: UAViation Aerial Solutions
+      year: July 2018 - September 2019
+      description: 
+        - Team Lead for the software team responsible for flight automation app development.
+        - Experience with project feasibility analysis.
+        - Project Lead on LIDAR drone mapping operations and GIS post-processing.
+        - CEO's right hand in client meetings. My work led to a successful exit (company acquisition - now a part of Volatus Aerospace).
+        - Experince working with Android Studio, Rest APIs, Google Maps API and DJI's UX SDK.
+        - Point of contact for reesearch based operations, Geospatial analysis and post processing using pix4d, arcGIS and QGIS.
+        - Used C++, Java, and Python to tackle photogrammetry and LiDAR flight mapping problems across Canada.
+        - Completed 18 projects in a year with government bodies, natural resource sectors, academia and private industry combined.
+
+
+    - title: Robotics Instructor
+      institution: Science World British Columbia
+      year: Sep 2014 - October 2018
+      description:
+        - Robotics Instructor for youth aged 9 to 14
+        - Introducing children and teens to programming, system design, electrical circuits, the VEX Robotics Design System , 3-D Printing principles and Engineering Design Procedures
+        - Encouraging interest in STEM, Teamwork, Leadership and Problem Solving
+        - Mentor and Instructor for VEX Level 1, VEX Level 2, and VEX Competitive programs at Science World BC
+
+
 - title: Education
   type: time_table
   contents:
@@ -34,133 +162,41 @@
         - Helped UBC's Climate Data Computing course set up infrastructure to let students run  MODIS, GOES-16 and 17, and Landsat (7 & 8) data in AWS.
         - Carried out field work + data analysis on plankton and published results to the <a href="https://phytoplankton.eoas.ubc.ca/"> phytopedia project</a>.
         - Built, deployed, and used custom weather sensors to WMO standards.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Data Modelling and Analysis
-      institution: Bloomberg L.P (Secondedment with <a href="https://www.gfanzero.com/">GFANZ </a>, and <a href="https://www.nzdpu.com">NZDPU</a>)
-      year: July 2022 - present
-      skills: Skills- Climate Change Mitigation · Net Zero · Data Architecture · Data Modeling · Databases · ESG · Public Speaking
-      description: 
-      - title: Research and Data Specialist with NZDPU
-        year: Nov 2022 - present
-        skills: Skills - Data Architecture · Data Modeling · Business Development · Python (Programming Language) · Data Analysis · Cloud Computing · Public Speaking
-        contents: 
-            - Please contact me for more details on my work here, as the projects and work for this product change rapidly...
-            - Work on NZDPU's Research and Data team with <a href="https://unfccc.int/">UNFCC</a> and the <a href="https://www.nzdpu.com/french-president-emmanuel-macron-and-un-secretary-generals-special-envoy-for-climate-ambition-and-solutions-michael-r-bloomberg-announce-a-climate-data-steering-committee-to-advise-how-to-ca">Climate Data Steering Committee</a> to build an open climate data platform.
-            - Work on data modeling, data quality and architecture for Net Zero Data Public Utility.
-            - Create briefs to maintain stakeholder management between the largest data providers collaborating on the NZDPU.
-            - Good experience of working with RCPs, SSPs and EU taxonomy.
-            - Create data models to map across regulatory frameworks such as TCFD, CDP, GHGP, PCAF, EFRAG, SBTi etc.
-            - Author on <a href="https://assets.bbhub.io/company/sites/71/2022/11/development-of-the-net-zero-data-public-utility-november-2022.pdf">NZDPU's whitepaper</a> about the development of an open data platform for climate transition-related data.
-      - title: Net Zero Data Specialist with GFANZ
-        year: July 2022 - Dec 2022
-        skills: Skills - Report Writing · NumPy · Databases · Python (Programming Language) · ESG · Financial Services · Data Analysis · Leadership · SQL
-        contents: 
-            - Worked with the <a href="https://www.gfanzero.com/">Glasgow Financial Alliance for Net-Zero</a>  from July 2022 to Dec 2022
-            - Helped with <a href="https://assets.bbhub.io/company/sites/63/2022/09/Recommendations-and-Guidance-on-Financial-Institution-Net-zero-Transition-Plans-November-2022.pdf">GFANZ's report</a> on Net-Zero
-            - Carried out data collection, processing, and quality analysis in Python on ~600 FIs for COP27.
-            - Helped create human-in-the-loop data collection systems and train a team of 40 data analysts in preparation for COP27.
-            - Python data analysis, QA/QC, and visualization on ~700 climate KPIs for ~600 FIs.
-            - Oversaw software developers working on transforming GFANZ's existing data infrastructure to cloud storage & computing.
-            - Developed AI/ML/NLP modules to create data collection and quality checks for net-zero tracking.
-  
-    - title: Brand Manager - Sustainability
-      institution: P.G.A Hospitality, Vancouver, Canada
-      year: July 2018 - Oct 2021
-      skills: Bid Writing · Marketing · Managerial Finance · Sustainability · Leadership
-      description:
-        - Hired as an independent contractor working with the CEO to bring sustainable business development
-        - Increased AUM by 192%, gross by 317% and net profits by 45%
-        - Developed business plans and marketing to transform their cafe into a local sustainable hub
-        - 2020/2021 have been the biggest profit years for their cafe business, with <a href="https://www.instagram.com/p/CVlkVIfM44V/?igshid=YmMyMTA2M2Y=">5 awards in 1 year</a> .
-        - Helped their cafe make it to The Province and The Vancouver Sun's list of <a href="https://www.instagram.com/p/Bvr0az7hsSt/?igshid=YmMyMTA2M2Y=">Metro Vancouver's Top 30</a> Metro Vancouver's Top 30.
-        - Gained partnerships with big roasters such as JJ Beans and Timbertrain in year 1 of operations.
-        - <a href="https://www.tricitynews.com/local-news/beanery-wins-contract-for-new-burke-mountain-cafe-3986899">Wrote</a> a thorough bid to the City of Coquitlam's RFP to open a new brand and launch a second sustainable business. 
-        -  Wrote proposal <a href="https://burkevillage.ca/2021/07/29/cafe-tenant-announced-for-burke-mountain-village-discovery-center/">that won</a> against several bigger corporate name brands and global competitors. 
-              
-
-    - title: Software Engineer and Project Coordinator
-      institution: UAViation Aerial Solutions (now Volatus Aerospace), Coquitlam, Canada
-      skills: Bid Writing · Product Management · Software Engineering · Leadership ·  Java · REST APIs · Unmanned Aerial Vehicles · C++ ·  App Development
-      year: June 2018 - Sep 2019
-      description: 
-        - Hired in a fast-growing startup to wear many hats as a software developer and project coordinator
-        - Carried out project feasibility analysis + planning
-        - CEO's right hand in client meetings.
-        - Built an app for in-house flight automation.
-        - Experience with LIDAR drone operations, post-processing and data management. 
-        - Carried out project with different client types across public and private sectors, academia and search and rescue. 
-
-    - title: Robotics Instructor + Science Museum  Facilitator
-      institution: Science World British Columbia, Canada
-      year: Sep 2014 - May 2018
-      description:
-      - title: Robotics Instructor
-        year: Nov 2022 - present
-        skills: Skills - Teaching · STEAM and STEM education · Engineering · Robotics · Programming 
-        contents: 
-            - Robotics Instructor for youth aged 9 to 14.</strong></em>
-            - Introducing children and teens to basic programming, the VEX Robotics Design System , 3-D Printing principles and Engineering Design Procedures.
-            - Encouraging interest in STEM, Teamwork, Leadership and Problem Solving.
-            - Trained the Science World VEX Competitive Team. Program grew from 5 pupils to 25 for each session during my time there. 
-            - Instructor for 3 different VEX sessions and 1 Mindstorm session every week
-      - title: Science Facilitator
-        year: Sep 2014 - May 2018
-        skills: Skills - Report Writing · NumPy · Databases · Python (Programming Language) · ESG · Financial Services · Data Analysis · Leadership · SQL
-        contents: 
-            - Interacting with guests at Science World with a friendly, fun, memorable and educational experience. 
-            - Act as a mentor for high school work experience students, providing feedback, support and completing evaluations. 
-            - Assist in the smooth operation of all visitor experiences including hosting OMNIMAX® and Science Theatre shows. 
-            - Ensure that galleries are well maintained and operational and provide feedback on customer interaction. 
-            - Trained in handling animals in the Science World galleries. 
     
 
-- title: Open Data Projects
-  type: paragraph
-  contents:
-    - title: <a href="https://www.nzdpu.com/">Net-Zero Data Public Utility (NZDPU) </a>
-      year: 2022 - present
-      description:
-        - To address this global data challenge, French President Emmanuel Macron and UN Special Envoy for Climate Ambition and Solutions Michael R. Bloomberg <a href="https://www.nzdpu.com/french-president-emmanuel-macron-and-un-secretary-generals-special-envoy-for-climate-ambition-and-solutions-michael-r-bloomberg-announce-a-climate-data-steering-committee-to-advise-how-to-ca/">created the Climate Data Steering Committee</a> (CDSC) in June 2022. 
-        - At its core, the Committee aims to serve the climate objectives of the United Nations by driving forward global momentum to build a broadly accessible foundation of high-quality climate data that is critical to delivering a net-zero economy. Soon after its creation, the CDSC convened global regulators, policymakers, civil society organizations, and other financial market participants to consider and advise on what data is needed to support and accelerate the net-zero transition. 
-        - In September 2022, the CDSC <a href="https://www.nzdpu.com/climate-data-steering-committee-proposes-recommendations-for-the-development-of-first-ever-publicly-accessible-climate-data-utility/">released a draft white paper</a> outlining its proposed recommendations for the development of a Net-Zero Data Public Utility (NZDPU or Utility) for public consultation. The NZDPU would be an open, free, and centralized data repository that would allow all stakeholders to easily access key climate transition-related data, commitments, and progress of businesses and financial institutions toward those commitments.After incorporating public feedback, the CDSC <a href="https://www.nzdpu.com/climate-data-steering-committee-announces-next-steps-for-groundbreaking-net-zero-data-public-utility/">released its recommendations at COP27</a>, proposing a pilot version of the NZDPU. Review our <a href="https://assets.bbhub.io/company/sites/71/2022/11/nzdpu-recommendation-development-process-2022.pdf" target="_blank" rel="noopener noreferrer">Recommendations Development Process</a> on how changes were made to the white paper in response to public consultation feedback.
-
-- title: Honors and Awards
+- title: Certifications
   type: time_table
   contents:
-    - year: 2021
-      items: 
-        - Scott Polar Scholarship, full scholarship given to the top applicant starting MPhil research at the Scott Polar Research Institute, University of Cambridge.
-    - year: 2020
-      items: 
-        - Graduated Top of Class for Atmospheric Science Graduates in 2016-2020
-        - Dean's Honor List for top performers
-    - year: 2019
-      items: 
-        - Best TA Award in Computer Science
-        - Dean's List for top performers
-    - year: 2018
-      items: 
-        - Best TA Award in Computer Science
-        - Dean's List for top performers
-    - year: 2017
-      items: 
-        - Dean's Honor List for top performers
-    - year: 2016
-      items: 
-        - BC Excellence Scholarship awarded to 55 well-rounded high school graduates who have demonstrated service and leadership, both at school and in their communities.
-        - Ministry of Education Scholarship given to the top 10\% of students in the province
-        - UBC Entrance Scholarship
-        - Western University full entrance Scholarship
-        - Simon Fraser University entrance Scholarship
-    - year: 2014
-      items:
-        - title: Invented a photovoltaic and thermoelectric hybrid solar cell which produced electricity and delivered 19% higher efficiency than conventional solar cells. Awards won
-          contents: 
-            - Bronze Medal Overall for innovation at the National Levels of the Canada-Wide Science Fair
-            - Gold Medal overall for innovation at the provincial level of the Canada-Wide Science Fair
-            - Gold Medal overall for innovation at the regional level of the Greater Vancouver Science Fair
-            - UBC Engineering Physics Award for most creative innovation in my age group
-            - Chief Judge Award, awarded to the best project chosen by the highest evaluator of the Greater Vancouver Science Fair
+    - title: <a href="https://portal.bloombergforeducation.com/certificates/JfxU6V85cRepMvTHqwHrWg59">Bloomberg Market Concepts</a>
+      institution: Bloomberg
+      credential_id: JfxU6V85cRepMvTHqwHrWg59
+      year: Nov 2023
+
+    - title: <a href="https://www.datacamp.com/statement-of-accomplishment/course/690c172e15c15a964d454d49638000dc54281161?raw=1">Python Data Science Toolbox (Part 2)</a>
+      institution: DataCamp
+      credential_id: 690c172e15c15a964d454d49638000dc54281161
+      year: Aug 2023
+
+    - title: <a href="https://www.datacamp.com/statement-of-accomplishment/course/9391f44c433b6f73a210b992193af3867e14e952?raw=1">Python Data Science Toolbox (Part 1)</a>
+      institution: DataCamp
+      credential_id: 9391f44c433b6f73a210b992193af3867e14e952
+      year: Jun 2023
+
+    - title: <a href="https://www.linkedin.com/learning/certificates/69fc1b04d303fc90285fb676e3580c4cb9fd445d6615b84a40279c2859207a41?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BQ7WeBr10TyibkHpc8b2t6g%3D%3D">Corporate Finance Foundations</a>
+      institution: LinkedIn
+      year: Dec 2022
+
+    - title: <a href="https://www.datacamp.com/statement-of-accomplishment/course/e6a758606695d03e779057d05277c25705c5c8c0">Intermediate Python</a>
+      institution: DataCamp
+      credential_id: e6a758606695d03e779057d05277c25705c5c8c0
+      year: Dec 2022
+
+    - title: <a href="https://www.datacamp.com/statement-of-accomplishment/course/3856945532c0155e8feeed0a1592d601a82da4cf">Intermediate SQL</a>
+      institution: DataCamp
+      credential_id: 3856945532c0155e8feeed0a1592d601a82da4cf
+      year: Dec 2022
+
+    - title: Carbon Literacy Certificate
+      institution: The Carbon Literacy Project
+      credential_id: CLAD 00023848
+      year: Dec 2021
