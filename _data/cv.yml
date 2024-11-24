@@ -13,7 +13,7 @@
   contents:
     - title: Senior Modeller - Climate Risk
       institution: Sillion, United Kingdom
-      year: December 2023 - Present
+      institution: December 2023 - Present
       # skills: Risk modelling, TCFD/ISSB, Transition planning
       description:
         - Lead development of core climate risk models for FTSE100 and FTSE250 clients, integrating results into TPT, CSRD, and annual reports across SECR, TCFD/ISSB, CDP, and GRI frameworks.
@@ -26,7 +26,7 @@
 
     - title: Net-Zero Data Specialist
       institution: Bloomberg L.P (Secondedment with <a href="https://www.gfanzero.com/">GFANZ </a>, and <a href="https://www.nzdpu.com">NZDPU</a>)
-      year: July 2022 - December 2023
+      institution: July 2022 - December 2023
       # skills: Skills- Climate Change Mitigation · Net Zero · Data Architecture · Data Modeling · Databases · Public Speaking
       description: 
         - Led data modelling and engineering for the NZDPU, a free, open data platform for climate transition, directly collaborating with global leaders, such as <a href="https://www.bloomberg.org/press/president-emmanuel-macron-and-michael-r-bloomberg-deliver-proof-of-concept-for-groundbreaking-net-zero-data-public-utility-at-cop28/">President Emmanuel Macron</a>, and the governments of <a href="https://nzdpu.com/news-and-publications/93eb6a59-8581-4c85-b4e7-4ebc670b17f2?page=2">Switzerland</a> and <a href="https://www.responsible-investor.com/singapore-and-switzerland-sign-up-to-global-climate-data-project/">Singapore</a>, <a href="https://www.cdp.net/en/articles/media/cdp-and-nzdpu-collaborate-to-accelerate-access-to-core-climate-data">CDP</a>, and UN.
@@ -45,7 +45,7 @@
 
     - title: Co-Organizer and DEI Expert
       institution: Polar Impact
-      year: October2021 - March 2023
+      institution: October2021 - March 2023
       # skills: Skills- Climate Change Mitigation · Net Zero · Data Architecture · Data Modeling · Databases · Public Speaking
       description: 
         - Co-run an NGO as a volunteer that supports BIPOC professionals in the polar research community.
@@ -56,7 +56,7 @@
 
     - title: Climate Science Researcher
       institution: University of Cambridge, British Antarctic Survey
-      year: October 2021 - June 2022
+      institution: October 2021 - June 2022
       # skills: Bid Writing · Marketing · Managerial Finance · Sustainability · Leadership
       description:
         - Conducted fully-funded research by the Scott Polar Research Institute, and the British Antarctic Survey on atmospheric drivers of Antarctic surface melt.
@@ -71,7 +71,7 @@
 
     - title: Brand Manager, Sustainability
       institution: P.G.A. Hospitality
-      year: September 2018 - October 2021
+      institution: September 2018 - October 2021
       # skills: Bid Writing · Marketing · Managerial Finance · Sustainability · Leadership
       description:
         - Worked as an independent contractor with the CEO to drive sustainable business development, and lead a team of 10.
@@ -85,7 +85,7 @@
     - title: Teaching Assistant in Computer Science
       institution: University of British Columbia
       # skills: Bid Writing · Product Management · Software Engineering · Leadership ·  Java · REST APIs · Unmanned Aerial Vehicles · C++ ·  App Development
-      year: December 2016 - June 2020
+      institution: December 2016 - June 2020
       description: 
         - Managed a team of 18 TAs as the Head Teaching Assistant of Computer Science
         - Ran lectures for ∼1000 students in Python, C++; created + graded course modules and labs
@@ -94,7 +94,7 @@
 
     - title: Research Assistant
       institution: University of British Columbia
-      year: December 2016 to May 2020
+      institution: December 2016 to May 2020
       description: 
         - Worked with several research labs in the Earth, Ocean and Atmospheric Science Department at the University of British Columbia
         - Used open-source satellite imagery and ECMWF Climate reanalysis data to study the role of glacial katabatic winds on <a href="https://pearl-ayem.github.io/projects/cloud_streets_clustering/">cloud formation over Greenland</a>.
@@ -114,7 +114,7 @@
 
     - title: Geospatial Engineer
       institution: UAViation Aerial Solutions
-      year: July 2018 - September 2019
+      institution: July 2018 - September 2019
       description: 
         - Team Lead for the software team responsible for flight automation app development.
         - Experience with project feasibility analysis.
@@ -128,7 +128,7 @@
 
     - title: Robotics Instructor
       institution: Science World British Columbia
-      year: Sep 2014 - October 2018
+      institution: Sep 2014 - October 2018
       description:
         - Robotics Instructor for youth aged 9 to 14
         - Introducing children and teens to programming, system design, electrical circuits, the VEX Robotics Design System , 3-D Printing principles and Engineering Design Procedures
@@ -141,7 +141,7 @@
   contents:
     - title: MPhil in Polar Atmospheric Science and Data Modelling
       institution: University of Cambridge, Cambridge, United Kingdom
-      year: 2021-2022
+      # year: 2021-2022
       description:
       - title: Conducted research with the Scott Polar Research Institute and the British Antarctic Survey
         contents:
@@ -155,7 +155,7 @@
  
     - title: Bachelor's of Science, Atmospheric Science, Minor in Computer Science
       institution: University of British Columbia, Vancouver, Canada
-      year: 2016 - 2020
+      # year: 2016 - 2020
       description:
         - Graduated Top of Class
         - Used weather and satellite data to study storms, climate change, glaciers, plant health, and air quality
